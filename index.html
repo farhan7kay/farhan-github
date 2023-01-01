@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- -------- Add StyleSheet and Scripts ---------- -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="file/script.js"></script>
+    <!--  --------------------------------------------  -->
+
+    <title>GitHub Scraper</title>
+</head>
+
+<body class="bg">
+    <div class="container">
+        <div id="left-cont">
+            <div class="user">
+                <div class="profile-div">
+                    <img src="file/user.jpg" id="avatar-img" >
+                </div>
+                <div class="user-name">
+                    <h1 id="account-name"></h1>
+                    <h4 id="blog"></h4>
+                </div>
+
+            </div>
+            <div class="details">
+                <table class="information">
+                    <thead>
+                        <tr>
+                            <th style="padding-top: 7px">Followers</th>
+                            <th style="padding-top: 7px">Following</th>
+                            <th style="padding-top: 7px">Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="followers"></td>
+                            <td id="following"></td>
+                            <td id="loc"></td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Bio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" id="bio"></td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th colspan="3">Favourite Programming Lang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3" id="likely_language"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="right-cont">
+            <div class="form-part">
+                <input type="text" placeholder="username" id="username">
+                <div id="submitBtn"><button onclick="getUser()">Search</button></div>
+                <div id="alert"></div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

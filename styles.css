@@ -1,0 +1,146 @@
+/* Button General Features */
+button {
+    padding: 10px;
+    background-color: mistyrose;
+    border-radius: 5px;
+    border: none;
+    margin-left: auto;
+}
+button:hover{
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(225, 225, 225, 1);
+}
+/* Specifically Submit Button Features */
+#submitBtn {
+    width: fit-content;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* تنظیم تصویر بکگراند */
+body {
+    height: auto;
+    background-image: url('file/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* قسمت ورودی متن */
+input {
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: mistyrose;
+    border: none;
+    border-radius: 50px;
+}
+/* زمانی که موس فرم را انتخاب کند*/
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(45, 45, 45, 0.95);
+}
+/*زمانی که موس بر روی فرم است*/
+input:hover{
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(225, 225, 225, 1);
+}
+
+ /* Main Container */
+.container {
+    width: 900px;;
+    height: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Left Container
+Data Showing */
+#left-cont {
+    width: 55%;
+    height: 90%;
+    float: left;
+    padding: 20px;
+    background-color: #FF00FFBF;
+    border-radius: 500px;
+}
+/* Right Container */
+#right-cont {
+    width: 30%;
+    height: 90%;
+    float: right;
+    padding: 20px;
+    /*background-color: #FF00FFBF;*/
+    border-radius: 500px;
+}
+/* Right Container for Input Data from User */
+.form-part {
+    /*opacity: 1;*/
+    height: 300px;
+    padding: 10px;
+    background-color: #FF00FFBF;
+    margin-top: 80px;
+    border-radius: 500px;
+}
+
+/* قسمت مربوط به عکس پروفایل، نام و بلاگ کاربر مورد نظر */
+.user {
+    height: 150px;
+}
+/* قسمت مربوط به اطلاعات جزئی کاربر مورد نظر */
+.details {
+    margin-top: 10px;
+    height: 275px;
+    padding: 10px;
+}
+
+/* عکس پروفایل */
+.profile-div {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    float: left;
+}
+/* استایل کلی برای هر عکسی که در صفحه وارد شود */
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+/* قسمت مربوط به قرارگیری نام کاربر */
+.user-name {
+    width: 250px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    text-align: center;
+}
+/* قسمت مربوط به دیوی که جدول در آن است */
+.information {
+    padding: 25px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)
+}
+/*تنظیمات کلی المان های حدول*/
+td {
+    padding: 20px;
+    text-align: center;
+}
+th {
+    padding: 3px;
+}
+
+/* اعلانهای مربوط به حافظه لوکال، کوکی و یا عدم یافتن کاربر */
+#alert {
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
